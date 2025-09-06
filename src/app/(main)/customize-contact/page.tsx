@@ -1,5 +1,6 @@
 
-import HomeBanner from "@/components/Home/Banner";
+
+import CustomizeContact from "@/components/Home/CustomizeCOntact";
 import { generateDynamicMetadata } from "@/metadata/generateMetadata";
 
 export async function generateMetadata() {
@@ -15,12 +16,12 @@ export async function generateMetadata() {
   });
 }
 
-const Home = () => {
+const CustomizeContactPage = () => {
   return (
     <div className="bg-[#F4F6F8] dark:bg-gray-600">
-      <HomeBanner></HomeBanner>
+      <CustomizeContact></CustomizeContact>
     </div>
   )
 }
 
-export default Home;
+export default CustomizeContactPage;
